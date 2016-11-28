@@ -24,4 +24,7 @@
 
         cordova -v
         ionic -v
+        
+        ionic start MyIonic2Project tutorial --v2
+        
         sudo ionic start --v2 myApp tabs
