@@ -4,6 +4,10 @@
 
 ##安装node.js
 
+###卸载旧版本node.js
+
+    sudo apt-get remove nodejs npm -y 
+
     cd /usr/local/src/
     sudo wget http://nodejs.org/dist/v7.2.0/node-v7.2.0.tar.gz
     sudo tar zxvf node-v7.2.0.tar.gz
