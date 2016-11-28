@@ -16,9 +16,12 @@
     npm -v
     
 ##安装cordova和ionic
-sudo npm install -g cnpm --registry=https://registry.npm.taobao.org
-sudo cnpm install -g cordova ionic 
+
+        sudo npm install -g cnpm --registry=https://registry.npm.taobao.org
+        sudo cnpm install -g cordova ionic 
+
 ###测试
-cordova -v
-ionic -v
-sudo ionic start --v2 myApp tabs
+
+        cordova -v
+        ionic -v
+        sudo ionic start --v2 myApp tabs
